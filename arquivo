@@ -1,0 +1,38 @@
+
+let produtos = ["leite", "açúcar", "pão","manteiga"];
+console.log( produtos.indexOf("pão")   );
+
+
+
+let vetor_numeros= [5, 10, 15, 20];
+console.log (vetor_numeros.includes(25));
+
+
+
+let numeros=[3, 6, 9, 12];
+let soma=0;
+for (let i = 0; i <numeros.length; i++)  {
+  soma+= numeros [i];
+}
+ let media = soma / numeros.length;
+console.log("Média:", media); //saída 30
+
+
+
+/*
+for (item of produtos)  {
+  console.log (item);
+  if (item === "pão") {
+        
+      }
+}
+*/
+
+
+
+
+//let cores= ["azul", "verde", "preto", "amarelo"];
+//for (cores of item) {
+  //console.log (cores);
+//}
+//let encontrou= cores.includes ("preto");
